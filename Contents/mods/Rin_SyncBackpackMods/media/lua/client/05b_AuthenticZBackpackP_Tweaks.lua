@@ -1,4 +1,4 @@
-if getActivatedMods():contains("Authentic Z - Current") or getActivatedMods():contains("AuthenticZBackpacks+") then 
+if getActivatedMods():contains("AuthenticZBackpacks+") then 
 
 --< Utility Belts - Better Fanny Packs> --
 TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","WeightReduction","80");
