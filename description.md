@@ -24,4 +24,3 @@ Supported Mods:
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829] Authentic Z [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292] Undead Survivor [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2725378876] They Knew [B41] [/url]
-

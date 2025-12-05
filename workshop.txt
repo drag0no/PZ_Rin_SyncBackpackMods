@@ -1,5 +1,5 @@
 version=1
-title=Rin Sync Backpacks
+title=Rin Sync Backpack Mods
 description=Built for version 41.78
 description=
 description=This mod doesn't add any new items, it just changes the vanilla's and mods' bags and backpacks.

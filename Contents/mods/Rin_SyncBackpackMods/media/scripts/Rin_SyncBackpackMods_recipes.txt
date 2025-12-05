@@ -1,4 +1,4 @@
-module Rin_SyncBackpacks {
+module Rin_SyncBackpackMods {
 	imports {
 		Base
 	}
