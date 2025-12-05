@@ -35,6 +35,7 @@ BONUS:
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2091564445] SWAT & RIOT PACK for BUILD[41.66b++] [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2658619264] Scrap Armor! [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2967995766] Goth Backpacks & Bags [/url]
+* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3022845661] Hello Kitty Backpacks [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829] Authentic Z [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292] Undead Survivor [/url]
 * [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2725378876] They Knew [B41] [/url]

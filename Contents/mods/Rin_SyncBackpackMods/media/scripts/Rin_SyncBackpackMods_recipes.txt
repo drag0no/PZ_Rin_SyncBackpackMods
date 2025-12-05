@@ -1346,4 +1346,130 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
+	recipe Refresh Kuromi Backpack
+  	{
+	   kuromi_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:kuromi_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Hello Kitty Backpack
+  	{
+	   hellokitty_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:hellokitty_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh My Melody Backpack
+  	{
+	   mymelody_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:mymelody_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Cinnamoroll Backpack
+  	{
+	   cinnamoroll_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:cinnamoroll_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Badtz-Maru Backpack
+  	{
+	   badtzmaru_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:badtzmaru_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Keroppi Backpack
+  	{
+	   Keroppi_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Keroppi_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Pompompurin Backpack
+  	{
+	   pompompurin_backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:IsHelloKittyActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:pompompurin_backpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
 }
