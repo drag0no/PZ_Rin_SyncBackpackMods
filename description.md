@@ -9,6 +9,8 @@ SAFE TO ADD/REMOVE MID-GAME!
 
 In case if you added this mod MID-GAME and have bags with old parameters, there are REFRESH recipes for fixing parameter of old (pre-spawned) bags.
 
+Also, note that this mod may nerf some of the backpacks as they have unreasonable (way too big) capacity for their actual physical size. If you want to keep your overpowered backpacks, [b][u]DO NOT install[/u][/b] this mod!
+
 
 [h2] DESCRIPTION [/h2]
 
