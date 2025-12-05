@@ -13,5 +13,5 @@ description=- Speed penalty slightly redecuded;
 description=
 description=BONUS:
 description=- Reworked Satchel: you can wear a satchel with a backpack!
-tags=Items,Balance
+tags=Build 41,Balance,Clothing/Armor,Items,Realistic
 visibility=public

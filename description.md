@@ -26,7 +26,7 @@ Features:
 - Speed penalty slightly reduced.
 
 BONUS:
-- Reworked Satchel: you can wear a satchel with a backpack!
+- Reworked Satchels: you can wear a satchel with a backpack!
 
 
 [h2] SUPPORTED MODS [/h2]
@@ -126,4 +126,4 @@ BONUS:
 
 [h2]FOUND AN ISSUE?[/h2]
 
-Please, raise this issue on my GitHub: [ur]https://github.com/drag0no/PZ_Rin_SyncBackpackMods/issues[/url]
+Please, raise this issue on my GitHub: [url]https://github.com/drag0no/PZ_Rin_SyncBackpackMods/issues[/url]
