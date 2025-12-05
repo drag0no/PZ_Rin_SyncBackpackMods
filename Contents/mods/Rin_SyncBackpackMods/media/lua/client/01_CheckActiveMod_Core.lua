@@ -27,3 +27,7 @@ end
 function CheckActiveMod.IsSwatpackActive(recipe, playerObj)
     return getActivatedMods():contains("Swatpack")
 end
+
+function CheckActiveMod.IsSwatpackActive(recipe, playerObj)
+    return getActivatedMods():contains("gothBags")
+end

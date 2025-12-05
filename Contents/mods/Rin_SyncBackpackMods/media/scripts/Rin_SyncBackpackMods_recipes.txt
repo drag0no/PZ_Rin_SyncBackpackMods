@@ -1094,4 +1094,256 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
+	recipe Refresh Goth Satchel
+  	{
+	   Bag_Goth_Satchel,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Satchel,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Fanny Pack
+  	{
+	   Bag_Goth_FannyFront/Bag_Goth_FannyBack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_FannyFront,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Fanny Pack Opal
+  	{
+	   Bag_Goth_FannyFront_Opal/Bag_Goth_FannyBack_Opal,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_FannyFront_Opal,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Bat Backpack
+  	{
+	   Bag_Coffin_Bat,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Coffin_Bat,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Bat Backpack Pink
+  	{
+	   Bag_Coffin_Bat_Pink,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Coffin_Bat_Pink,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Bat Backpack Lavender
+  	{
+	   Bag_Coffin_Bat_Lavender,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Coffin_Bat_Lavender,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Kitty Backpack
+  	{
+	   Bag_Goth_Kitty,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Kitty,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Team Orbit Backpack
+  	{
+	   Bag_Goth_Orbit,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Orbit,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Seraphim Backpack
+  	{
+	   Bag_Goth_Seraphim,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Seraphim,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Pentagram Backpack
+  	{
+	   Bag_Goth_Pentagram,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Pentagram,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Mushroom Backpack
+  	{
+	   Bag_Goth_Mushroom,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Mushroom,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Heart Backpack
+  	{
+	   Bag_Goth_Heart,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Heart,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Spiky Backpack
+  	{
+	   Bag_Goth_Spiky,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Goth_Spiky,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Goth Coffin Backpack
+  	{
+	   Bag_Coffin_Big,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=3,
+	   DenimStrips/LeatherStrips=3,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Coffin_Big,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
 }
