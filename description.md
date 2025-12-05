@@ -127,3 +127,7 @@ BONUS:
 [h2]FOUND AN ISSUE?[/h2]
 
 Please, raise this issue on my GitHub: [url]https://github.com/drag0no/PZ_Rin_SyncBackpackMods/issues[/url]
+
+
+Workshop ID: 3617914133
+Mod ID: Rin_SyncBackpackMods
