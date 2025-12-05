@@ -1,0 +1,12 @@
+if getActivatedMods():contains("TheyKnew") then 
+
+--< Tactical Satchel >--
+TweakItem("TheyKnew.MysteriousSatchel","WeightReduction","90");
+TweakItem("TheyKnew.MysteriousSatchel","Capacity","18");
+TweakItem("TheyKnew.MysteriousSatchel","RunSpeedModifier","0.98");
+TweakItem("TheyKnew.MysteriousSatchel","CanBeEquipped","FannyPackBack");
+TweakItem("TheyKnew.MysteriousSatchel","BodyLocation","Back2");
+TweakItem("TheyKnew.MysteriousSatchel","ClothingItemExtra","MysteriousSatchel");
+TweakItem("TheyKnew.MysteriousSatchel","ClothingItemExtraOption","FannyPack_WearBack");
+
+end

@@ -1,0 +1,5 @@
+Tooltip_EN = {
+
+    Tooltip_Convert = "Use this recipe ONLY if you have incorrect stats on your bag/backpack.<br>It will RE-CREATE your bag with correct stats so EMPTY IT before clicking!",
+	
+}

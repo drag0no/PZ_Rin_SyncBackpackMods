@@ -1,0 +1,16 @@
+version=1
+title=Rin Sync Backpacks
+description=Built for version 41.78
+description=
+description=This mod doesn't add any new items, it just changes the vanilla's and mods' bags and backpacks.
+description=In case if you added this mod MID-GAME and have bags with old parameters, there are REFRESH recipes to fixes old bags.
+description=
+description=Features:
+description=- Sync Bags and Backpacks of the same type across multiple mods;
+description=- Bigger capacity and weight reduction for many bags and backpacks;
+description=- Speed penalty slightly redecuded;
+description=
+description=BONUS:
+description=- Reworked Satchel: you can wear a satchel with a backpack!
+tags=Items,Balance
+visibility=public
