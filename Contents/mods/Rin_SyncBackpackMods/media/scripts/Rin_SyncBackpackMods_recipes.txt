@@ -1102,7 +1102,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Satchel,
 	   Time:200.0,
@@ -1120,7 +1120,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_FannyFront,
 	   Time:200.0,
@@ -1138,7 +1138,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_FannyFront_Opal,
 	   Time:200.0,
@@ -1156,7 +1156,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Coffin_Bat,
 	   Time:200.0,
@@ -1174,7 +1174,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Coffin_Bat_Pink,
 	   Time:200.0,
@@ -1192,7 +1192,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Coffin_Bat_Lavender,
 	   Time:200.0,
@@ -1210,7 +1210,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Kitty,
 	   Time:200.0,
@@ -1228,7 +1228,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Orbit,
 	   Time:200.0,
@@ -1246,7 +1246,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Seraphim,
 	   Time:200.0,
@@ -1264,7 +1264,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Pentagram,
 	   Time:200.0,
@@ -1282,7 +1282,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Mushroom,
 	   Time:200.0,
@@ -1300,7 +1300,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Heart,
 	   Time:200.0,
@@ -1318,7 +1318,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Goth_Spiky,
 	   Time:200.0,
@@ -1336,7 +1336,7 @@ module Rin_SyncBackpackMods {
        Thread=3,
 	   DenimStrips/LeatherStrips=3,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:IsGothBagsActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Coffin_Big,
 	   Time:200.0,
