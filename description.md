@@ -122,3 +122,8 @@ BONUS:
         [td]Currently only one present: Nomad Backpack from Undead Survivor mod[/td]
     [/tr]
 [/table]
+
+
+[h2]FOUND AN ISSUE?[/h2]
+
+Please, raise this issue on my GitHub: [ur]https://github.com/drag0no/PZ_Rin_SyncBackpackMods/issues[/url]
