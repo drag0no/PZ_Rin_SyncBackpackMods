@@ -33,15 +33,16 @@ description=- Reworked Satchels: you can wear a satchel with a backpack!
 description=
 description=
 description=[h2] SUPPORTED MODS [/h2]
-description=* [url=https://steamcommunity.com/workshop/filedetails/?id=2297098490] Arsenal[26] GunFighter Mod [2.0] [/url]
+description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2680473910] The Workshop [/url]
+description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2658619264] Scrap Armor! [/url]
+description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2297098490] Arsenal[26] GunFighter Mod [2.0] [/url]
 description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2460154811] Brita's Armor Pack [/url]
 description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2091564445] SWAT & RIOT PACK for BUILD[41.66b++] [/url]
-description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2658619264] Scrap Armor! [/url]
-description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2967995766] Goth Backpacks & Bags [/url]
-description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3022845661] Hello Kitty Backpacks [/url]
 description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2335368829] Authentic Z [/url]
 description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2713921292] Undead Survivor [/url]
 description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2725378876] They Knew [B41] [/url]
+description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2967995766] Goth Backpacks & Bags [/url]
+description=* [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3022845661] Hello Kitty Backpacks [/url]
 description=
 description=
 description=[h2] BACKPACK TYPES [/h2]

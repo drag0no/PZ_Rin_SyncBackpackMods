@@ -140,6 +140,114 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
+	recipe Refresh Tool Belt
+  	{
+	   Toolbelt,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsWorkshopActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Toolbelt,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Left Leg Pouch
+  	{
+	   ScrapLegPouchL,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsScrapArmorActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:ScrapLegPouchL,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Right Leg Pouch
+  	{
+	   ScrapLegPouchR,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsScrapArmorActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:ScrapLegPouchR,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Travel Pack
+  	{
+	   Rucksack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsScrapArmorActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Rucksack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Arsenal Fanny Pack
+  	{
+	   CCW_FannyPack/CCW_FannyPack_22/CCW_FannyPack_380/CCW_FannyPack_9/CCW_FannyPack_357/CCW_FannyPack_45_1/CCW_FannyPack_45_2,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsArsenal26Active,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_FannyPackFront,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Arsenal Duffel Bag
+  	{
+	   Bag_Police/Bag_Bugout,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsArsenal26Active,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_DuffelBag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
 	recipe Refresh Bag Bottle Holder
   	{
 	   Bottle_Bag/Bottle_Bag_Loose,
@@ -1328,17 +1436,17 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh Tool Belt
+	recipe Refresh SWAT Shoulder Pads
   	{
-	   Toolbelt,
+	   SwatShoulderPads,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
+	   LeatherStrips=10,	 
 
-	   OnCanPerform:CheckActiveMod.IsWorkshopActive,
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
 	   OnCreate:PleaseKeepColor,
-   	   Result:Toolbelt,
+   	   Result:SwatShoulderPads,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -1346,17 +1454,17 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh Left Leg Pouch
+	recipe Refresh SWAT Elbow Pads
   	{
-	   ScrapLegPouchL,
+	   SwatElbowPads,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
+	   LeatherStrips=10,	 
 
-	   OnCanPerform:CheckActiveMod.IsScrapArmorActive,
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
 	   OnCreate:PleaseKeepColor,
-   	   Result:ScrapLegPouchL,
+   	   Result:SwatElbowPads,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -1364,17 +1472,17 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh Right Leg Pouch
+	recipe Refresh SWAT Knee Pads
   	{
-	   ScrapLegPouchR,
+	   SwatKneePads,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
+	   LeatherStrips=10,	 
 
-	   OnCanPerform:CheckActiveMod.IsScrapArmorActive,
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
 	   OnCreate:PleaseKeepColor,
-   	   Result:ScrapLegPouchR,
+   	   Result:SwatKneePads,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -1382,17 +1490,53 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh Travel Pack
+	recipe Refresh SWAT Leg Pouch
   	{
-	   Rucksack,
+	   SWATPouch,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
 	   DenimStrips/LeatherStrips=1,	 
 
-	   OnCanPerform:CheckActiveMod.IsScrapArmorActive,
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
 	   OnCreate:PleaseKeepColor,
-   	   Result:Rucksack,
+   	   Result:SWATPouch,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Police Bag
+  	{
+	   Bag_PoliceBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_PoliceBag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SWAT Bag
+  	{
+	   Bag_BigSwatBag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_BigSwatBag,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -1724,60 +1868,6 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh Arsenal Fanny Pack
-  	{
-	   CCW_FannyPack/CCW_FannyPack_22/CCW_FannyPack_380/CCW_FannyPack_9/CCW_FannyPack_357/CCW_FannyPack_45_1/CCW_FannyPack_45_2,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
-
-	   OnCanPerform:CheckActiveMod.IsArsenal26Active,
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_FannyPackFront,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh Arsenal Duffel Bag
-  	{
-	   Bag_Police/Bag_Bugout,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
-
-	   OnCanPerform:CheckActiveMod.IsArsenal26Active,
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBag,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh Mysterious Satchel
-  	{
-	   MysteriousSatchel,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
-
-	   OnCanPerform:CheckActiveMod.IsTheyKnewActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:MysteriousSatchel,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
 	recipe Refresh Amazona Hip Bag
   	{
 	   AmazonaHipBag,
@@ -1886,107 +1976,17 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh SWAT Shoulder Pads
+	recipe Refresh Mysterious Satchel
   	{
-	   SwatShoulderPads,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   LeatherStrips=10,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:SwatShoulderPads,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh SWAT Elbow Pads
-  	{
-	   SwatElbowPads,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   LeatherStrips=10,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:SwatElbowPads,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh SWAT Knee Pads
-  	{
-	   SwatKneePads,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   LeatherStrips=10,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:SwatKneePads,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh SWAT Leg Pouch
-  	{
-	   SWATPouch,
+	   MysteriousSatchel,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
 	   DenimStrips/LeatherStrips=1,	 
 
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCanPerform:CheckActiveMod.IsTheyKnewActive,
 	   OnCreate:PleaseKeepColor,
-   	   Result:SWATPouch,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh Police Bag
-  	{
-	   Bag_PoliceBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_PoliceBag,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh SWAT Bag
-  	{
-	   Bag_BigSwatBag,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   DenimStrips/LeatherStrips=1,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_BigSwatBag,
+   	   Result:MysteriousSatchel,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
