@@ -12,11 +12,7 @@ group:getOrCreateLocation("UpperArmRight")
 group:setExclusive("UpperArmLeft","UpperArms")
 group:setExclusive("UpperArmRight","UpperArms")
 
-group:getOrCreateLocation("Hands")
-group:getOrCreateLocation("HandPlateLeft")
-group:getOrCreateLocation("HandPlateRight")
-group:setExclusive("HandPlateLeft","Hands")
-group:setExclusive("HandPlateRight","Hands")
+group:getOrCreateLocation("Elbows")
 
 group:getOrCreateLocation("Thighs")
 group:getOrCreateLocation("ThighLeft")

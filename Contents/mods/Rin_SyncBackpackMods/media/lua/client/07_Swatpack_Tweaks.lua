@@ -2,8 +2,13 @@ if getActivatedMods():contains("Swatpack") then
 
 --< Equip Slot Fixes >--
 TweakItem("Base.SwatShoulderPads","BodyLocation","UpperArms");
-TweakItem("Base.SwatElbowPads","BodyLocation","Hands");
+TweakItem("Base.SwatShoulderPads","BloodLocation","UpperArms");
+
+TweakItem("Base.SwatElbowPads","BodyLocation","Elbows");
+TweakItem("Base.SwatElbowPads","BloodLocation","Hands");
+
 TweakItem("Base.SwatKneePads","BodyLocation","Shins");
+TweakItem("Base.SwatKneePads","BloodLocation","Trousers");
 
 --< Leg Pouches > --
 TweakItem("Base.SWATPouch","WeightReduction","85");
