@@ -13,6 +13,7 @@ TweakItem("AuthenticZClothing.Bag_Satchel","BodyLocation","Back2");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","WeightReduction","85");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","Capacity","7");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","RunSpeedModifier","0.98");
+TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","CanBeEquipped","FannyPackFront");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","clothingExtraSubmenu","FannyPack_WearFront")
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","ClothingItemExtra","Bag_UtilityBeltFront_Loose");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","ClothingItemExtraOption","FannyPack_WearBack");
@@ -20,6 +21,7 @@ TweakItem("AuthenticZClothing.Bag_UtilityBeltFront","ClothingItemExtraOption","F
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","WeightReduction","85");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","Capacity","7");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","RunSpeedModifier","0.98");
+TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","clothingExtraSubmenu","FannyPack_WearBack")
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","ClothingItemExtra","Bag_UtilityBeltFront");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","ClothingItemExtraOption","FannyPack_WearFront");
@@ -27,6 +29,7 @@ TweakItem("AuthenticZClothing.Bag_UtilityBeltFront_Loose","ClothingItemExtraOpti
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","WeightReduction","85");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","Capacity","7");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","RunSpeedModifier","0.98");
+TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","CanBeEquipped","FannyPackFront");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","clothingExtraSubmenu","FannyPack_WearFront")
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","ClothingItemExtra","Bag_UtilityBeltDesert_Loose");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","ClothingItemExtraOption","FannyPack_WearBack");
@@ -34,6 +37,7 @@ TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert","ClothingItemExtraOption","
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","WeightReduction","85");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","Capacity","7");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","RunSpeedModifier","0.98");
+TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","clothingExtraSubmenu","FannyPack_WearBack")
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","ClothingItemExtra","Bag_UtilityBeltDesert");
 TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","ClothingItemExtraOption","FannyPack_WearFront");
