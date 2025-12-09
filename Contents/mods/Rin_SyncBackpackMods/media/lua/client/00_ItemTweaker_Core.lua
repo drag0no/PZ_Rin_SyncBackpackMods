@@ -33,7 +33,7 @@ group:setExclusive("ShinPlateRight","Shins")
 -- Small Satchels       - Weight Red 85 / Cap  6 / Speed 0.98
 -- Normal Satchels      - Weight Red 85 / Cap 16 / Speed 0.98
 -- Tactical Satchels    - Weight Red 90 / Cap 18 / Speed 0.98
--- Belts                - Weight Red 85 / Cap  8 / Speed 0.98
+-- Utility Belts        - Weight Red 85 / Cap  8 / Speed 0.98
 -- Fanny Packs          - Weight Red 80 / Cap  4 / Speed 0.98
 -- Tactical Fanny Packs - Weight Red 85 / Cap  7 / Speed 0.98
 -- Chest Vests          - Weight Red 90 / Cap 10 / Speed 0.99

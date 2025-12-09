@@ -193,7 +193,7 @@ TweakItem("Base.Ashe_Gear_Loose","ClothingItemExtraOption","ContextMenu_Wear");
 TweakItem("Base.Belt_Pack_AR_Loose","DisplayName","AR-15 Mag Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_AR_Loose","WeightReduction","85");
 TweakItem("Base.Belt_Pack_AR_Loose","Capacity","14");
-TweakItem("Base.Belt_Pack_AR_Loose","RunSpeedModifier","0.98");
+TweakItem("Base.Belt_Pack_AR_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_AR_Loose","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_AR_Loose","CanBeEquipped","Thighs");
 TweakItem("Base.Belt_Pack_AR_Loose","clothingExtraSubmenu","ContextMenu_Wear")
@@ -203,7 +203,7 @@ TweakItem("Base.Belt_Pack_AR_Loose","ClothingItemExtraOption","ContextMenu_Wear"
 TweakItem("Base.Belt_Pack_AR","DisplayName","AR-15 Mag Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_AR","WeightReduction","85");
 TweakItem("Base.Belt_Pack_AR","Capacity","14");
-TweakItem("Base.Belt_Pack_AR","RunSpeedModifier","0.98");
+TweakItem("Base.Belt_Pack_AR","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_AR","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_AR","CanBeEquipped","Thighs");
 TweakItem("Base.Belt_Pack_AR","clothingExtraSubmenu","ContextMenu_Wear")
@@ -213,7 +213,7 @@ TweakItem("Base.Belt_Pack_AR","ClothingItemExtraOption","ContextMenu_Wear");
 TweakItem("Base.Belt_Pack_Gas_Loose","DisplayName","Gas Mask Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Gas_Loose","WeightReduction","85");
 TweakItem("Base.Belt_Pack_Gas_Loose","Capacity","14");
-TweakItem("Base.Belt_Pack_Gas_Loose","RunSpeedModifier","0.98");
+TweakItem("Base.Belt_Pack_Gas_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Gas_Loose","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Gas_Loose","CanBeEquipped","Thighs");
 TweakItem("Base.Belt_Pack_Gas_Loose","clothingExtraSubmenu","ContextMenu_Wear")
@@ -223,7 +223,7 @@ TweakItem("Base.Belt_Pack_Gas_Loose","ClothingItemExtraOption","ContextMenu_Wear
 TweakItem("Base.Belt_Pack_Gas","DisplayName","Gas Mask Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Gas","WeightReduction","85");
 TweakItem("Base.Belt_Pack_Gas","Capacity","14");
-TweakItem("Base.Belt_Pack_Gas","RunSpeedModifier","0.98");
+TweakItem("Base.Belt_Pack_Gas","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Gas","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Gas","CanBeEquipped","Thighs");
 TweakItem("Base.Belt_Pack_Gas","clothingExtraSubmenu","ContextMenu_Wear")
@@ -233,7 +233,7 @@ TweakItem("Base.Belt_Pack_Gas","ClothingItemExtraOption","ContextMenu_Wear");
 TweakItem("Base.Belt_Pack_Pouch_Loose","DisplayName","Utility Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Pouch_Loose","WeightReduction","85");
 TweakItem("Base.Belt_Pack_Pouch_Loose","Capacity","14");
-TweakItem("Base.Belt_Pack_Pouch_Loose","RunSpeedModifier","0.98");
+TweakItem("Base.Belt_Pack_Pouch_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Pouch_Loose","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Pouch_Loose","CanBeEquipped","Thighs");
 TweakItem("Base.Belt_Pack_Pouch_Loose","clothingExtraSubmenu","ContextMenu_Wear")
@@ -243,7 +243,7 @@ TweakItem("Base.Belt_Pack_Pouch_Loose","ClothingItemExtraOption","ContextMenu_We
 TweakItem("Base.Belt_Pack_Pouch","DisplayName","Utility Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Pouch","WeightReduction","85");
 TweakItem("Base.Belt_Pack_Pouch","Capacity","14");
-TweakItem("Base.Belt_Pack_Pouch","RunSpeedModifier","0.98");
+TweakItem("Base.Belt_Pack_Pouch","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Pouch","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Pouch","CanBeEquipped","Thighs");
 TweakItem("Base.Belt_Pack_Pouch","clothingExtraSubmenu","ContextMenu_Wear")
@@ -253,7 +253,7 @@ TweakItem("Base.Belt_Pack_Pouch","ClothingItemExtraOption","ContextMenu_Wear");
 TweakItem("Base.Rig_ELA_Loose","DisplayName","Elzbieta Bosak ELA's Gear Set");
 TweakItem("Base.Rig_ELA_Loose","WeightReduction","85");
 TweakItem("Base.Rig_ELA_Loose","Capacity","14");
-TweakItem("Base.Rig_ELA_Loose","RunSpeedModifier","0.98");
+TweakItem("Base.Rig_ELA_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Rig_ELA_Loose","BodyLocation","Thighs");
 TweakItem("Base.Rig_ELA_Loose","CanBeEquipped","Thighs");
 TweakItem("Base.Rig_ELA_Loose","clothingExtraSubmenu","ContextMenu_Wear")
@@ -263,7 +263,7 @@ TweakItem("Base.Rig_ELA_Loose","ClothingItemExtraOption","ContextMenu_Wear");
 TweakItem("Base.Rig_ELA","DisplayName","Elzbieta Bosak ELA's Gear Set");
 TweakItem("Base.Rig_ELA","WeightReduction","85");
 TweakItem("Base.Rig_ELA","Capacity","14");
-TweakItem("Base.Rig_ELA","RunSpeedModifier","0.98");
+TweakItem("Base.Rig_ELA","RunSpeedModifier","0.96");
 TweakItem("Base.Rig_ELA","BodyLocation","Thighs");
 TweakItem("Base.Rig_ELA","CanBeEquipped","Thighs");
 TweakItem("Base.Rig_ELA","clothingExtraSubmenu","ContextMenu_Wear")
