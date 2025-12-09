@@ -1436,60 +1436,6 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh SWAT Shoulder Pads
-  	{
-	   SwatShoulderPads,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   LeatherStrips=10,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:SwatShoulderPads,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh SWAT Elbow Pads
-  	{
-	   SwatElbowPads,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   LeatherStrips=10,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:SwatElbowPads,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
-	recipe Refresh SWAT Knee Pads
-  	{
-	   SwatKneePads,
-		keep Scissors,
-        keep Needle/SutureNeedle,
-       Thread=1,
-	   LeatherStrips=10,	 
-
-	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
-	   OnCreate:PleaseKeepColor,
-   	   Result:SwatKneePads,
-	   Time:200.0,
-       AnimNode:Disassemble,	   
-	   SkillRequired:Tailoring=0,	   
-	   Category:Tailoring,
-	   Tooltip:Tooltip_Convert,
-  	}
-
 	recipe Refresh SWAT Leg Pouch
   	{
 	   SWATPouch,
