@@ -5,7 +5,7 @@ TweakItem("UndeadSurvivor.AmazonaHipBag","WeightReduction","85");
 TweakItem("UndeadSurvivor.AmazonaHipBag","Capacity","7");
 TweakItem("UndeadSurvivor.AmazonaHipBag","RunSpeedModifier","0.98");
 TweakItem("UndeadSurvivor.AmazonaHipBag","ClothingItemExtra","AmazonaHipBag");
-TweakItem("UndeadSurvivor.AmazonaHipBag","ClothingItemExtraOption","ContextMenu_Equip_on_your_Back");
+TweakItem("UndeadSurvivor.AmazonaHipBag","ClothingItemExtraOption","Equip_on_your_Back");
 
 --< Hiking Backpacks >--
 TweakItem("UndeadSurvivor.HeadhunterBackpack","WeightReduction","90");

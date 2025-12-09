@@ -175,9 +175,9 @@ TweakItem("Base.Ashe_Gear","Capacity","7");
 TweakItem("Base.Ashe_Gear","RunSpeedModifier","0.98");
 TweakItem("Base.Ashe_Gear","BodyLocation","ThighRight");
 TweakItem("Base.Ashe_Gear","CanBeEquipped","ThighRight");
-TweakItem("Base.Ashe_Gear","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Ashe_Gear","clothingExtraSubmenu","Wear")
 TweakItem("Base.Ashe_Gear","ClothingItemExtra","Ashe_Gear");
-TweakItem("Base.Ashe_Gear","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Ashe_Gear","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Ashe_Gear_Loose","DisplayName","Ashe's Gear Pack");
 TweakItem("Base.Ashe_Gear_Loose","WeightReduction","85");
@@ -185,9 +185,9 @@ TweakItem("Base.Ashe_Gear_Loose","Capacity","7");
 TweakItem("Base.Ashe_Gear_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.Ashe_Gear_Loose","BodyLocation","ThighRight");
 TweakItem("Base.Ashe_Gear_Loose","CanBeEquipped","ThighRight");
-TweakItem("Base.Ashe_Gear_Loose","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Ashe_Gear_Loose","clothingExtraSubmenu","Wear")
 TweakItem("Base.Ashe_Gear_Loose","ClothingItemExtra","Ashe_Gear");
-TweakItem("Base.Ashe_Gear_Loose","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Ashe_Gear_Loose","ClothingItemExtraOption","Wear");
 
 --< Double Leg Pouches >--
 TweakItem("Base.Belt_Pack_AR_Loose","DisplayName","AR-15 Mag Drop Leg Pouches Set");
@@ -196,9 +196,9 @@ TweakItem("Base.Belt_Pack_AR_Loose","Capacity","14");
 TweakItem("Base.Belt_Pack_AR_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_AR_Loose","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_AR_Loose","CanBeEquipped","Thighs");
-TweakItem("Base.Belt_Pack_AR_Loose","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Belt_Pack_AR_Loose","clothingExtraSubmenu","Wear")
 TweakItem("Base.Belt_Pack_AR_Loose","ClothingItemExtra","Belt_Pack_AR_Loose");
-TweakItem("Base.Belt_Pack_AR_Loose","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Belt_Pack_AR_Loose","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Belt_Pack_AR","DisplayName","AR-15 Mag Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_AR","WeightReduction","85");
@@ -206,9 +206,9 @@ TweakItem("Base.Belt_Pack_AR","Capacity","14");
 TweakItem("Base.Belt_Pack_AR","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_AR","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_AR","CanBeEquipped","Thighs");
-TweakItem("Base.Belt_Pack_AR","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Belt_Pack_AR","clothingExtraSubmenu","Wear")
 TweakItem("Base.Belt_Pack_AR","ClothingItemExtra","Belt_Pack_AR_Loose");
-TweakItem("Base.Belt_Pack_AR","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Belt_Pack_AR","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Belt_Pack_Gas_Loose","DisplayName","Gas Mask Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Gas_Loose","WeightReduction","85");
@@ -216,9 +216,9 @@ TweakItem("Base.Belt_Pack_Gas_Loose","Capacity","14");
 TweakItem("Base.Belt_Pack_Gas_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Gas_Loose","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Gas_Loose","CanBeEquipped","Thighs");
-TweakItem("Base.Belt_Pack_Gas_Loose","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Belt_Pack_Gas_Loose","clothingExtraSubmenu","Wear")
 TweakItem("Base.Belt_Pack_Gas_Loose","ClothingItemExtra","Belt_Pack_Gas_Loose");
-TweakItem("Base.Belt_Pack_Gas_Loose","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Belt_Pack_Gas_Loose","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Belt_Pack_Gas","DisplayName","Gas Mask Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Gas","WeightReduction","85");
@@ -226,9 +226,9 @@ TweakItem("Base.Belt_Pack_Gas","Capacity","14");
 TweakItem("Base.Belt_Pack_Gas","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Gas","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Gas","CanBeEquipped","Thighs");
-TweakItem("Base.Belt_Pack_Gas","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Belt_Pack_Gas","clothingExtraSubmenu","Wear")
 TweakItem("Base.Belt_Pack_Gas","ClothingItemExtra","Belt_Pack_Gas_Loose");
-TweakItem("Base.Belt_Pack_Gas","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Belt_Pack_Gas","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Belt_Pack_Pouch_Loose","DisplayName","Utility Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Pouch_Loose","WeightReduction","85");
@@ -236,9 +236,9 @@ TweakItem("Base.Belt_Pack_Pouch_Loose","Capacity","14");
 TweakItem("Base.Belt_Pack_Pouch_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Pouch_Loose","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Pouch_Loose","CanBeEquipped","Thighs");
-TweakItem("Base.Belt_Pack_Pouch_Loose","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Belt_Pack_Pouch_Loose","clothingExtraSubmenu","Wear")
 TweakItem("Base.Belt_Pack_Pouch_Loose","ClothingItemExtra","Belt_Pack_Pouch_Loose");
-TweakItem("Base.Belt_Pack_Pouch_Loose","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Belt_Pack_Pouch_Loose","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Belt_Pack_Pouch","DisplayName","Utility Drop Leg Pouches Set");
 TweakItem("Base.Belt_Pack_Pouch","WeightReduction","85");
@@ -246,9 +246,9 @@ TweakItem("Base.Belt_Pack_Pouch","Capacity","14");
 TweakItem("Base.Belt_Pack_Pouch","RunSpeedModifier","0.96");
 TweakItem("Base.Belt_Pack_Pouch","BodyLocation","Thighs");
 TweakItem("Base.Belt_Pack_Pouch","CanBeEquipped","Thighs");
-TweakItem("Base.Belt_Pack_Pouch","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Belt_Pack_Pouch","clothingExtraSubmenu","Wear")
 TweakItem("Base.Belt_Pack_Pouch","ClothingItemExtra","Belt_Pack_Pouch_Loose");
-TweakItem("Base.Belt_Pack_Pouch","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Belt_Pack_Pouch","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Rig_ELA_Loose","DisplayName","Elzbieta Bosak ELA's Gear Set");
 TweakItem("Base.Rig_ELA_Loose","WeightReduction","85");
@@ -256,9 +256,9 @@ TweakItem("Base.Rig_ELA_Loose","Capacity","14");
 TweakItem("Base.Rig_ELA_Loose","RunSpeedModifier","0.96");
 TweakItem("Base.Rig_ELA_Loose","BodyLocation","Thighs");
 TweakItem("Base.Rig_ELA_Loose","CanBeEquipped","Thighs");
-TweakItem("Base.Rig_ELA_Loose","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Rig_ELA_Loose","clothingExtraSubmenu","Wear")
 TweakItem("Base.Rig_ELA_Loose","ClothingItemExtra","Rig_ELA_Loose");
-TweakItem("Base.Rig_ELA_Loose","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Rig_ELA_Loose","ClothingItemExtraOption","Wear");
 
 TweakItem("Base.Rig_ELA","DisplayName","Elzbieta Bosak ELA's Gear Set");
 TweakItem("Base.Rig_ELA","WeightReduction","85");
@@ -266,9 +266,9 @@ TweakItem("Base.Rig_ELA","Capacity","14");
 TweakItem("Base.Rig_ELA","RunSpeedModifier","0.96");
 TweakItem("Base.Rig_ELA","BodyLocation","Thighs");
 TweakItem("Base.Rig_ELA","CanBeEquipped","Thighs");
-TweakItem("Base.Rig_ELA","clothingExtraSubmenu","ContextMenu_Wear")
+TweakItem("Base.Rig_ELA","clothingExtraSubmenu","Wear")
 TweakItem("Base.Rig_ELA","ClothingItemExtra","Rig_ELA_Loose");
-TweakItem("Base.Rig_ELA","ClothingItemExtraOption","ContextMenu_Wear");
+TweakItem("Base.Rig_ELA","ClothingItemExtraOption","Wear");
 
 --< Tactical Fanny Packs > --
 TweakItem("Base.Bag_Tactical_Belt_Front","WeightReduction","85");

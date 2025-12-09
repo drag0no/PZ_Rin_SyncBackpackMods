@@ -6,7 +6,7 @@ TweakItem("gothBags.Bag_Goth_Satchel","Capacity","16");
 TweakItem("gothBags.Bag_Goth_Satchel","RunSpeedModifier","0.98");
 TweakItem("gothBags.Bag_Goth_Satchel","CanBeEquipped","FannyPackBack");
 TweakItem("gothBags.Bag_Goth_Satchel","ClothingItemExtra","Bag_Goth_Satchel");
-TweakItem("gothBags.Bag_Goth_Satchel","ClothingItemExtraOption","ContextMenu_Equip_on_your_Back");
+TweakItem("gothBags.Bag_Goth_Satchel","ClothingItemExtraOption","Equip_on_your_Back");
 TweakItem("gothBags.Bag_Goth_Satchel","BodyLocation","Back2");
 
 --< Fanny Packs >--    

@@ -6,7 +6,7 @@ TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","Capacity","16");
 TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","RunSpeedModifier","0.98");
 TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","CanBeEquipped","FannyPackBack");
 TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","ClothingItemExtra","Bag_Satchel");
-TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","ClothingItemExtraOption","ContextMenu_Equip_on_your_Back");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","ClothingItemExtraOption","Equip_on_your_Back");
 TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","BodyLocation","Back2");
 
 --< Tactical Fanny Packs > --
