@@ -1,4 +1,4 @@
-if getActivatedMods():contains("Brita_2") then 
+if getActivatedMods():contains("Brita_2") then
 
 --< Remove Loose Satchel, Chests & Leg Pouches >--
 -- RemoveItem("Base.Bottle_Bag_Loose")
@@ -6,35 +6,25 @@ if getActivatedMods():contains("Brita_2") then
 -- RemoveItem("Base.OMNI_Pouch_Loose")
 
 --< Small Satchels >--
-TweakItem("Base.Bottle_Bag","DisplayName","Cross Body Bag Bottle Holder");
-TweakItem("Base.Bottle_Bag","WeightReduction","85");
-TweakItem("Base.Bottle_Bag","Capacity","6");
-TweakItem("Base.Bottle_Bag","RunSpeedModifier","0.98");
-TweakItem("Base.Bottle_Bag","CanBeEquipped","FannyPackBack");
-TweakItem("Base.Bottle_Bag","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.Bottle_Bag","ClothingItemExtra","Bottle_Bag")
-TweakItem("Base.Bottle_Bag","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.Bottle_Bag","BodyLocation","Back2");
-
 TweakItem("Base.Bottle_Bag_Loose","DisplayName","Cross Body Bag Bottle Holder");
 TweakItem("Base.Bottle_Bag_Loose","WeightReduction","85");
 TweakItem("Base.Bottle_Bag_Loose","Capacity","6");
 TweakItem("Base.Bottle_Bag_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.Bottle_Bag_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.Bottle_Bag_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.Bottle_Bag_Loose","ClothingItemExtra","Bottle_Bag")
+TweakItem("Base.Bottle_Bag_Loose","ClothingItemExtra","Bottle_Bag_Loose")
 TweakItem("Base.Bottle_Bag_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Bottle_Bag_Loose","BodyLocation","Back2");
 
-TweakItem("Base.GM15_Canister","DisplayName","GM15 Gas Mask Canister");
-TweakItem("Base.GM15_Canister","WeightReduction","85");
-TweakItem("Base.GM15_Canister","Capacity","6");
-TweakItem("Base.GM15_Canister","RunSpeedModifier","0.98");
-TweakItem("Base.GM15_Canister","CanBeEquipped","FannyPackBack");
-TweakItem("Base.GM15_Canister","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.GM15_Canister","ClothingItemExtra","GM15_Canister")
-TweakItem("Base.GM15_Canister","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.GM15_Canister","BodyLocation","Back2");
+TweakItem("Base.Bottle_Bag","DisplayName","Cross Body Bag Bottle Holder");
+TweakItem("Base.Bottle_Bag","WeightReduction","85");
+TweakItem("Base.Bottle_Bag","Capacity","6");
+TweakItem("Base.Bottle_Bag","RunSpeedModifier","0.98");
+TweakItem("Base.Bottle_Bag","CanBeEquipped","FannyPackBack");
+TweakItem("Base.Bottle_Bag","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.Bottle_Bag","ClothingItemExtra","Bottle_Bag_Loose")
+TweakItem("Base.Bottle_Bag","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.Bottle_Bag","BodyLocation","Back2");
 
 TweakItem("Base.GM15_Canister_Loose","DisplayName","GM15 Gas Mask Canister");
 TweakItem("Base.GM15_Canister_Loose","WeightReduction","85");
@@ -42,19 +32,19 @@ TweakItem("Base.GM15_Canister_Loose","Capacity","6");
 TweakItem("Base.GM15_Canister_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.GM15_Canister_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.GM15_Canister_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.GM15_Canister_Loose","ClothingItemExtra","GM15_Canister")
+TweakItem("Base.GM15_Canister_Loose","ClothingItemExtra","GM15_Canister_Loose")
 TweakItem("Base.GM15_Canister_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.GM15_Canister_Loose","BodyLocation","Back2");
 
-TweakItem("Base.Trench_Ammo_Pack","DisplayName","Stormtrooper Trench Raider Ammo Pouch");
-TweakItem("Base.Trench_Ammo_Pack","WeightReduction","85");
-TweakItem("Base.Trench_Ammo_Pack","Capacity","6");
-TweakItem("Base.Trench_Ammo_Pack","RunSpeedModifier","0.98");
-TweakItem("Base.Trench_Ammo_Pack","CanBeEquipped","FannyPackBack");
-TweakItem("Base.Trench_Ammo_Pack","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.Trench_Ammo_Pack","ClothingItemExtra","Trench_Ammo_Pack")
-TweakItem("Base.Trench_Ammo_Pack","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.Trench_Ammo_Pack","BodyLocation","Back2");
+TweakItem("Base.GM15_Canister","DisplayName","GM15 Gas Mask Canister");
+TweakItem("Base.GM15_Canister","WeightReduction","85");
+TweakItem("Base.GM15_Canister","Capacity","6");
+TweakItem("Base.GM15_Canister","RunSpeedModifier","0.98");
+TweakItem("Base.GM15_Canister","CanBeEquipped","FannyPackBack");
+TweakItem("Base.GM15_Canister","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.GM15_Canister","ClothingItemExtra","GM15_Canister_Loose")
+TweakItem("Base.GM15_Canister","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.GM15_Canister","BodyLocation","Back2");
 
 TweakItem("Base.Trench_Ammo_Pack_Loose","DisplayName","Stormtrooper Trench Raider Ammo Pouch");
 TweakItem("Base.Trench_Ammo_Pack_Loose","WeightReduction","85");
@@ -62,21 +52,21 @@ TweakItem("Base.Trench_Ammo_Pack_Loose","Capacity","6");
 TweakItem("Base.Trench_Ammo_Pack_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.Trench_Ammo_Pack_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.Trench_Ammo_Pack_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.Trench_Ammo_Pack_Loose","ClothingItemExtra","Trench_Ammo_Pack")
+TweakItem("Base.Trench_Ammo_Pack_Loose","ClothingItemExtra","Trench_Ammo_Pack_Loose")
 TweakItem("Base.Trench_Ammo_Pack_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Trench_Ammo_Pack_Loose","BodyLocation","Back2");
 
---< Normal Satchels >--
-TweakItem("Base.Messkit","DisplayName","Mess Kit Carrier SET A");
-TweakItem("Base.Messkit","WeightReduction","85");
-TweakItem("Base.Messkit","Capacity","16");
-TweakItem("Base.Messkit","RunSpeedModifier","0.98");
-TweakItem("Base.Messkit","CanBeEquipped","FannyPackBack");
-TweakItem("Base.Messkit","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.Messkit","ClothingItemExtra","Messkit_Loose")
-TweakItem("Base.Messkit","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.Messkit","BodyLocation","Back2");
+TweakItem("Base.Trench_Ammo_Pack","DisplayName","Stormtrooper Trench Raider Ammo Pouch");
+TweakItem("Base.Trench_Ammo_Pack","WeightReduction","85");
+TweakItem("Base.Trench_Ammo_Pack","Capacity","6");
+TweakItem("Base.Trench_Ammo_Pack","RunSpeedModifier","0.98");
+TweakItem("Base.Trench_Ammo_Pack","CanBeEquipped","FannyPackBack");
+TweakItem("Base.Trench_Ammo_Pack","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.Trench_Ammo_Pack","ClothingItemExtra","Trench_Ammo_Pack_Loose")
+TweakItem("Base.Trench_Ammo_Pack","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.Trench_Ammo_Pack","BodyLocation","Back2");
 
+--< Normal Satchels >--
 TweakItem("Base.Messkit_Loose","DisplayName","Mess Kit Carrier SET A");
 TweakItem("Base.Messkit_Loose","WeightReduction","85");
 TweakItem("Base.Messkit_Loose","Capacity","16");
@@ -87,15 +77,15 @@ TweakItem("Base.Messkit_Loose","ClothingItemExtra","Messkit")
 TweakItem("Base.Messkit_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Messkit_Loose","BodyLocation","Back2");
 
-TweakItem("Base.Messkit_B","DisplayName","Mess Kit Carrier SET B");
-TweakItem("Base.Messkit_B","WeightReduction","85");
-TweakItem("Base.Messkit_B","Capacity","16");
-TweakItem("Base.Messkit_B","RunSpeedModifier","0.98");
-TweakItem("Base.Messkit_B","CanBeEquipped","FannyPackBack");
-TweakItem("Base.Messkit_B","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.Messkit_B","ClothingItemExtra","Messkit_B_Loose")
-TweakItem("Base.Messkit_B","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.Messkit_B","BodyLocation","Back2");
+TweakItem("Base.Messkit","DisplayName","Mess Kit Carrier SET A");
+TweakItem("Base.Messkit","WeightReduction","85");
+TweakItem("Base.Messkit","Capacity","16");
+TweakItem("Base.Messkit","RunSpeedModifier","0.98");
+TweakItem("Base.Messkit","CanBeEquipped","FannyPackBack");
+TweakItem("Base.Messkit","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.Messkit","ClothingItemExtra","Messkit_Loose")
+TweakItem("Base.Messkit","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.Messkit","BodyLocation","Back2");
 
 TweakItem("Base.Messkit_B_Loose","DisplayName","Mess Kit Carrier SET B");
 TweakItem("Base.Messkit_B_Loose","WeightReduction","85");
@@ -107,36 +97,36 @@ TweakItem("Base.Messkit_B_Loose","ClothingItemExtra","Messkit_B")
 TweakItem("Base.Messkit_B_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Messkit_B_Loose","BodyLocation","Back2");
 
---< Tactical Satchels >--
-TweakItem("Base.K1_Bag","DisplayName","K-1 Gas Mask Carrying Satchel");
-TweakItem("Base.K1_Bag","WeightReduction","90");
-TweakItem("Base.K1_Bag","Capacity","18");
-TweakItem("Base.K1_Bag","RunSpeedModifier","0.98");
-TweakItem("Base.K1_Bag","CanBeEquipped","FannyPackBack");
-TweakItem("Base.K1_Bag","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.K1_Bag","ClothingItemExtra","K1_Bag")
-TweakItem("Base.K1_Bag","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.K1_Bag","BodyLocation","Back2");
+TweakItem("Base.Messkit_B","DisplayName","Mess Kit Carrier SET B");
+TweakItem("Base.Messkit_B","WeightReduction","85");
+TweakItem("Base.Messkit_B","Capacity","16");
+TweakItem("Base.Messkit_B","RunSpeedModifier","0.98");
+TweakItem("Base.Messkit_B","CanBeEquipped","FannyPackBack");
+TweakItem("Base.Messkit_B","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.Messkit_B","ClothingItemExtra","Messkit_B_Loose")
+TweakItem("Base.Messkit_B","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.Messkit_B","BodyLocation","Back2");
 
+--< Tactical Satchels >--
 TweakItem("Base.K1_Bag_Loose","DisplayName","K-1 Gas Mask Carrying Satchel");
 TweakItem("Base.K1_Bag_Loose","WeightReduction","90");
 TweakItem("Base.K1_Bag_Loose","Capacity","18");
 TweakItem("Base.K1_Bag_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.K1_Bag_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.K1_Bag_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.K1_Bag_Loose","ClothingItemExtra","K1_Bag")
+TweakItem("Base.K1_Bag_Loose","ClothingItemExtra","K1_Bag_Loose")
 TweakItem("Base.K1_Bag_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.K1_Bag_Loose","BodyLocation","Back2");
 
-TweakItem("Base.C420_PAPR","DisplayName","C420 PAPR Gear Pack");
-TweakItem("Base.C420_PAPR","WeightReduction","90");
-TweakItem("Base.C420_PAPR","Capacity","18");
-TweakItem("Base.C420_PAPR","RunSpeedModifier","0.98");
-TweakItem("Base.C420_PAPR","CanBeEquipped","FannyPackBack");
-TweakItem("Base.C420_PAPR","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.C420_PAPR","ClothingItemExtra","C420_PAPR")
-TweakItem("Base.C420_PAPR","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.C420_PAPR","BodyLocation","Back2");
+TweakItem("Base.K1_Bag","DisplayName","K-1 Gas Mask Carrying Satchel");
+TweakItem("Base.K1_Bag","WeightReduction","90");
+TweakItem("Base.K1_Bag","Capacity","18");
+TweakItem("Base.K1_Bag","RunSpeedModifier","0.98");
+TweakItem("Base.K1_Bag","CanBeEquipped","FannyPackBack");
+TweakItem("Base.K1_Bag","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.K1_Bag","ClothingItemExtra","K1_Bag_Loose")
+TweakItem("Base.K1_Bag","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.K1_Bag","BodyLocation","Back2");
 
 TweakItem("Base.C420_PAPR_Loose","DisplayName","C420 PAPR Gear Pack");
 TweakItem("Base.C420_PAPR_Loose","WeightReduction","90");
@@ -144,19 +134,19 @@ TweakItem("Base.C420_PAPR_Loose","Capacity","18");
 TweakItem("Base.C420_PAPR_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.C420_PAPR_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.C420_PAPR_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.C420_PAPR_Loose","ClothingItemExtra","C420_PAPR")
+TweakItem("Base.C420_PAPR_Loose","ClothingItemExtra","C420_PAPR_Loose")
 TweakItem("Base.C420_PAPR_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.C420_PAPR_Loose","BodyLocation","Back2");
 
-TweakItem("Base.Trench_Grenade_Pack","DisplayName","Stormtrooper Trench Raider Grenade Pouch");
-TweakItem("Base.Trench_Grenade_Pack","WeightReduction","90");
-TweakItem("Base.Trench_Grenade_Pack","Capacity","18");
-TweakItem("Base.Trench_Grenade_Pack","RunSpeedModifier","0.98");
-TweakItem("Base.Trench_Grenade_Pack","CanBeEquipped","FannyPackBack");
-TweakItem("Base.Trench_Grenade_Pack","clothingExtraSubmenu","FannyPack_WearBack")
-TweakItem("Base.Trench_Grenade_Pack","ClothingItemExtra","Trench_Grenade_Pack")
-TweakItem("Base.Trench_Grenade_Pack","ClothingItemExtraOption","FannyPack_WearBack");
-TweakItem("Base.Trench_Grenade_Pack","BodyLocation","Back2");
+TweakItem("Base.C420_PAPR","DisplayName","C420 PAPR Gear Pack");
+TweakItem("Base.C420_PAPR","WeightReduction","90");
+TweakItem("Base.C420_PAPR","Capacity","18");
+TweakItem("Base.C420_PAPR","RunSpeedModifier","0.98");
+TweakItem("Base.C420_PAPR","CanBeEquipped","FannyPackBack");
+TweakItem("Base.C420_PAPR","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.C420_PAPR","ClothingItemExtra","C420_PAPR_Loose")
+TweakItem("Base.C420_PAPR","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.C420_PAPR","BodyLocation","Back2");
 
 TweakItem("Base.Trench_Grenade_Pack_Loose","DisplayName","Stormtrooper Trench Raider Grenade Pouch");
 TweakItem("Base.Trench_Grenade_Pack_Loose","WeightReduction","90");
@@ -164,9 +154,19 @@ TweakItem("Base.Trench_Grenade_Pack_Loose","Capacity","18");
 TweakItem("Base.Trench_Grenade_Pack_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.Trench_Grenade_Pack_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.Trench_Grenade_Pack_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.Trench_Grenade_Pack_Loose","ClothingItemExtra","Trench_Grenade_Pack")
+TweakItem("Base.Trench_Grenade_Pack_Loose","ClothingItemExtra","Trench_Grenade_Pack_Loose")
 TweakItem("Base.Trench_Grenade_Pack_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Trench_Grenade_Pack_Loose","BodyLocation","Back2");
+
+TweakItem("Base.Trench_Grenade_Pack","DisplayName","Stormtrooper Trench Raider Grenade Pouch");
+TweakItem("Base.Trench_Grenade_Pack","WeightReduction","90");
+TweakItem("Base.Trench_Grenade_Pack","Capacity","18");
+TweakItem("Base.Trench_Grenade_Pack","RunSpeedModifier","0.98");
+TweakItem("Base.Trench_Grenade_Pack","CanBeEquipped","FannyPackBack");
+TweakItem("Base.Trench_Grenade_Pack","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("Base.Trench_Grenade_Pack","ClothingItemExtra","Trench_Grenade_Pack_Loose")
+TweakItem("Base.Trench_Grenade_Pack","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.Trench_Grenade_Pack","BodyLocation","Back2");
 
 --< Leg Pouches >--
 TweakItem("Base.Ashe_Gear","DisplayName","Ashe's Gear Pack");
