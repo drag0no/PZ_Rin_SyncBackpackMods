@@ -1,31 +1,57 @@
 if getActivatedMods():contains("AuthenticZBackpacks+") then 
 
---< Utility Belts - Better Fanny Packs> --
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","WeightReduction","80");
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","Capacity","6");
+--< Normal Satchels  >--
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","WeightReduction","85");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","Capacity","16");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","RunSpeedModifier","0.98");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","CanBeEquipped","FannyPackBack");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","ClothingItemExtra","Bag_Satchel");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","ClothingItemExtraOption","ContextMenu_Equip_on_your_Back");
+TweakItem("AuthenticZBackpacksPlus.Bag_Satchel","BodyLocation","Back2");
+
+--< Tactical Fanny Packs > --
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","WeightReduction","85");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","Capacity","7");
 TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","RunSpeedModifier","0.98");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","clothingExtraSubmenu","FannyPack_WearFront")
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","ClothingItemExtra","Bag_UtilityBeltFront_Loose");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront","ClothingItemExtraOption","FannyPack_WearBack");
 
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","WeightReduction","80");
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","Capacity","6");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","WeightReduction","85");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","Capacity","7");
 TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","RunSpeedModifier","0.98");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","ClothingItemExtra","Bag_UtilityBeltFront");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltFront_Loose","ClothingItemExtraOption","FannyPack_WearFront");
 
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","WeightReduction","80");
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","Capacity","6");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","WeightReduction","85");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","Capacity","7");
 TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","RunSpeedModifier","0.98");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","clothingExtraSubmenu","FannyPack_WearFront")
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","ClothingItemExtra","Bag_UtilityBeltDesert_Loose");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert","ClothingItemExtraOption","FannyPack_WearBack");
 
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","WeightReduction","80");
-TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","Capacity","6");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","WeightReduction","85");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","Capacity","7");
 TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","RunSpeedModifier","0.98");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","ClothingItemExtra","Bag_UtilityBeltDesert");
+TweakItem("AuthenticZBackpacksPlus.Bag_UtilityBeltDesert_Loose","ClothingItemExtraOption","FannyPack_WearFront");
 
---< Chests - Even Better Fanny Packs >--
+--< Chest Vests >--
 TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ","WeightReduction","90");
 TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ","Capacity","10");
 TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ","RunSpeedModifier","0.99");
+TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ","clothingExtraSubmenu","FannyPack_WearFront")
+TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ","ClothingItemExtra","Bag_MilitaryWebbingTightened_AZ");
+TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbing_AZ","ClothingItemExtraOption","FannyPack_WearBack");
 
 TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ","WeightReduction","90");
 TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ","Capacity","10");
 TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ","RunSpeedModifier","0.99");
-
+TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ","clothingExtraSubmenu","FannyPack_WearBack")
+TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ","ClothingItemExtra","Bag_MilitaryWebbing_AZ");
+TweakItem("AuthenticZBackpacksPlus.Bag_MilitaryWebbingTightened_AZ","ClothingItemExtraOption","FannyPack_WearFront");
 
 --< Duffel Bags >--
 TweakItem("AuthenticZBackpacksPlus.Bag_DuffelBag_Tier_1","WeightReduction","80");

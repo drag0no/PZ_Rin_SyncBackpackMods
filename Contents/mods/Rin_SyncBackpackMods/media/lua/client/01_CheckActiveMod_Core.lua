@@ -4,6 +4,10 @@ function CheckActiveMod.IsBritaActive(recipe, playerObj)
     return getActivatedMods():contains("Brita_2")
 end
 
+function CheckActiveMod.IsWorkshopActive(recipe, playerObj)
+    return getActivatedMods():contains("TheWorkshop(new version)") or getActivatedMods():contains("TheWorkshop")
+end
+
 function CheckActiveMod.IsScrapArmorActive(recipe, playerObj)
     return getActivatedMods():contains("ScrapArmor(new version)") or getActivatedMods():contains("ScrapArmor")
 end

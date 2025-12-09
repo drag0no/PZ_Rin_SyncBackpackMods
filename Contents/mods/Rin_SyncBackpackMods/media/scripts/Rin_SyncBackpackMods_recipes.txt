@@ -158,6 +158,222 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
+	recipe Refresh GM15 Gas Mask Canister
+  	{
+	   GM15_Canister/GM15_Canister_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:GM15_Canister,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Stormtrooper Trench Raider Ammo Pouch
+  	{
+	   Trench_Ammo_Pack/Trench_Ammo_Pack_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Trench_Ammo_Pack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Mess Kit Carrier SET A
+  	{
+	   Messkit/Messkit_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Messkit,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Mess Kit Carrier SET B
+  	{
+	   Messkit_B/Messkit_B_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Messkit_B,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh K-1 Gas Mask Carrying Satchel
+  	{
+	   K1_Bag/K1_Bag_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:K1_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh C420 PAPR Gear Pack
+  	{
+	   C420_PAPR/C420_PAPR_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:C420_PAPR,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Stormtrooper Trench Raider Grenade Pouch
+  	{
+	   Trench_Grenade_Pack/Trench_Grenade_Pack_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Trench_Grenade_Pack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Ashes Gear Pack
+  	{
+	   Ashe_Gear/Ashe_Gear_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Ashe_Gear,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh AR-15 Mag Drop Leg Pouches Set
+  	{
+	   Belt_Pack_AR_Loose/Belt_Pack_AR,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Belt_Pack_AR_Loose,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Gas Mask Drop Leg Pouches Set
+  	{
+	   Belt_Pack_Gas_Loose/Belt_Pack_Gas,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Belt_Pack_Gas_Loose,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Utility Drop Leg Pouches Set
+  	{
+	   Belt_Pack_Pouch_Loose/Belt_Pack_Pouch,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Belt_Pack_Pouch_Loose,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Elzbieta Bosak ELAs Gear Set
+  	{
+	   Rig_ELA_Loose/Rig_ELA,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Rig_ELA_Loose,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
 	recipe Refresh Fairwin Tactical Belt
   	{
 	   Bag_Tactical_Belt_Front/Bag_Tactical_Belt_Back,
@@ -205,6 +421,42 @@ module Rin_SyncBackpackMods {
 	   OnCanPerform:CheckActiveMod.IsBritaActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_DuffelBag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Mueller Omni Medi Kit Fanny Pack
+  	{
+	   OMNI_Pouch/OMNI_Pouch_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:OMNI_Pouch,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh AR Battle Belt Sets
+  	{
+	   Belt_Pack_War/Belt_Pack_War_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Belt_Pack_War,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -302,9 +554,9 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
-	recipe Refresh Brita Duffel Bag
+	recipe Refresh Ars Arma D3CR Chest Rig Sets
   	{
-	   Army_Duffle_Bag/Trauma_Bag/Sheriff_Bag/Casual_Bag,
+	   D3CR/D3CR_Loose,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
@@ -312,7 +564,439 @@ module Rin_SyncBackpackMods {
 
 	   OnCanPerform:CheckActiveMod.IsBritaActive,
 	   OnCreate:PleaseKeepColor,
-   	   Result:Bag_DuffelBag,
+   	   Result:D3CR,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SPOSN Smersh Vest
+  	{
+	   Rig_Smersh/Rig_Smersh_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Rig_Smersh,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SPOSN Smersh Vest w AK Kit
+  	{
+	   Rig_Smersh_A/Rig_Smersh_A_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Rig_Smersh_A,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SPOSN Smersh Vest w PKM Kit
+  	{
+	   Rig_Smersh_B/Rig_Smersh_B_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Rig_Smersh_B,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SPOSN Smersh Vest w SVD Kit
+  	{
+	   Rig_Smersh_C/Rig_Smersh_C_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Rig_Smersh_C,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Patrol Radio Chest Harness Set
+  	{
+	   Radio_Rig/Radio_Rig_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Radio_Rig,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Shotgun Chest Rig Sets
+  	{
+	   Shotgun_Rig/Shotgun_Rig_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Shotgun_Rig,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Trauma Duffle Bag
+  	{
+	   Trauma_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Trauma_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Rick Grimes Sheriff Duffle Bag
+  	{
+	   Sheriff_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Sheriff_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Casual Duffle Bag
+  	{
+	   Casual_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Casual_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Lightweight Baker Style Tent Set
+  	{
+	   Baker_Tent/Baker_Tent_2/Baker_Tent_3/Baker_Tent_4/Baker_Tent_5/Baker_Tent_6,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Baker_Tent,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Elzbieta Bosak ELAs Tactical Backpack
+  	{
+	   ELA_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:ELA_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh KIP-5 Rebreather Pack
+  	{
+	   KIP5,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:KIP5,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Polish AP-3 SCBA Pack
+  	{
+	   AP3,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:AP3,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh IP-46 Rebreather Pack
+  	{
+	   IP46,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:IP46,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Bread Bag
+  	{
+	   Bread_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bread_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Bread Sack
+  	{
+	   Bread_Sack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bread_Sack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Metro Hazard Oxygen Tank Carrier
+  	{
+	   Metro_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Metro_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Swedish Multipurpose Carrier w Wooden Ammo Box
+  	{
+	   Multi_Carrier_Wood,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Multi_Carrier_Wood,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Swedish Multipurpose Carrier w Metal Ammo Can
+  	{
+	   Multi_Carrier_Ammo,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Multi_Carrier_Ammo,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Swedish Multipurpose Carrier w Carl Gustaf Ammunition Tubes
+  	{
+	   Multi_Carrier_Carl,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Multi_Carrier_Carl,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Swedish Multipurpose Carrier w Food Box
+  	{
+	   Multi_Carrier_Food,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Multi_Carrier_Food,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh FT-817 Portable Ham Radio Backpack
+  	{
+	   Ham_Radio,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Ham_Radio,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Army Duffle Bag
+  	{
+	   Army_Duffle_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Army_Duffle_Bag,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Meret Omni Pro EMS Response Bag
+  	{
+	   OMNI_Bag,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:OMNI_Bag,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -349,6 +1033,24 @@ module Rin_SyncBackpackMods {
 	   OnCanPerform:CheckActiveMod.IsBritaActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Cat_Pack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Robbie the Rabbit Pack
+  	{
+	   Bag_Robbie_Pack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Robbie_Pack,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -421,6 +1123,60 @@ module Rin_SyncBackpackMods {
 	   OnCanPerform:CheckActiveMod.IsBritaActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_Hunting,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh MSA Safety SCBA Set
+  	{
+	   Bag_SCBA,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_SCBA,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Military Juggernaut Ammo Pack
+  	{
+	   Bag_Dozer_Pack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_Dozer_Pack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Hunters Backpack
+  	{
+	   Hunter_Backpack,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Hunter_Backpack,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -554,6 +1310,42 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
+	recipe Refresh Stormtrooper Trench Raider Tornister Sets
+  	{
+	   Trench_Tornister,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsBritaActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Trench_Tornister,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Tool Belt
+  	{
+	   Toolbelt,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsWorkshopActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Toolbelt,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
 	recipe Refresh Left Leg Pouch
   	{
 	   ScrapLegPouchL,
@@ -608,9 +1400,45 @@ module Rin_SyncBackpackMods {
 	   Tooltip:Tooltip_Convert,
   	}
 
+	recipe Refresh AuthenticZ Satchel
+  	{
+	   AuthenticZClothing.Bag_Satchel,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsAuthenticZActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:AuthenticZClothing.Bag_Satchel,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh AuthenticZ Satchel
+  	{
+	   AuthenticZBackpacksPlus.Bag_Satchel,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsAuthenticZActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:AuthenticZBackpacksPlus.Bag_Satchel,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
 	recipe Refresh Utility Belt
   	{
-	   Bag_UtilityBeltFront/Bag_UtilityBeltFront_Loose/Bag_UtilityBeltDesert/Bag_UtilityBeltDesert_Loose,
+	   Bag_UtilityBeltFront/Bag_UtilityBeltFront_Loose,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
@@ -619,6 +1447,24 @@ module Rin_SyncBackpackMods {
 	   OnCanPerform:CheckActiveMod.IsAuthenticZActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:Bag_UtilityBeltFront,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh Desert Utility Belt
+  	{
+	   Bag_UtilityBeltDesert/Bag_UtilityBeltDesert_Loose,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   DenimStrips/LeatherStrips=1,	 
+
+	   OnCanPerform:CheckActiveMod.IsAuthenticZActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:Bag_UtilityBeltDesert,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   
@@ -880,7 +1726,7 @@ module Rin_SyncBackpackMods {
 
 	recipe Refresh Arsenal Fanny Pack
   	{
-	   CCW_FannyPack_22/CCW_FannyPack_380/CCW_FannyPack_9/CCW_FannyPack_357/CCW_FannyPack_45_1/CCW_FannyPack_45_2,
+	   CCW_FannyPack/CCW_FannyPack_22/CCW_FannyPack_380/CCW_FannyPack_9/CCW_FannyPack_357/CCW_FannyPack_45_1/CCW_FannyPack_45_2,
 		keep Scissors,
         keep Needle/SutureNeedle,
        Thread=1,
@@ -1033,6 +1879,60 @@ module Rin_SyncBackpackMods {
 	   OnCanPerform:CheckActiveMod.IsUndeadSuvivorActive,
 	   OnCreate:PleaseKeepColor,
    	   Result:NomadBackpack,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SWAT Shoulder Pads
+  	{
+	   SwatShoulderPads,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   LeatherStrips=10,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:SwatShoulderPads,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SWAT Elbow Pads
+  	{
+	   SwatElbowPads,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   LeatherStrips=10,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:SwatElbowPads,
+	   Time:200.0,
+       AnimNode:Disassemble,	   
+	   SkillRequired:Tailoring=0,	   
+	   Category:Tailoring,
+	   Tooltip:Tooltip_Convert,
+  	}
+
+	recipe Refresh SWAT Knee Pads
+  	{
+	   SwatKneePads,
+		keep Scissors,
+        keep Needle/SutureNeedle,
+       Thread=1,
+	   LeatherStrips=10,	 
+
+	   OnCanPerform:CheckActiveMod.IsSwatpackActive,
+	   OnCreate:PleaseKeepColor,
+   	   Result:SwatKneePads,
 	   Time:200.0,
        AnimNode:Disassemble,	   
 	   SkillRequired:Tailoring=0,	   

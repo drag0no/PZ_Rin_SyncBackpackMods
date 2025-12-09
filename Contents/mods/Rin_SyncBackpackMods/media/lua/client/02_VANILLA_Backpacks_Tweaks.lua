@@ -1,25 +1,18 @@
--- Fanny Packs        - Weight Red 75 / Cap  4 / Speed 0.98
--- Duffel Bags        - Weight Red 80 / Cap 23 / Speed 0.98
--- Small Backpacks    - Weight Red 85 / Cap 20 / Speed 0.99
--- Hiking Backpacks   - Weight Red 90 / Cap 26 / Speed 0.97
--- Big Hike Backpacks - Weight Red 95 / Cap 30 / Speed 0.97
--- Military Backpacks - Weight Red 95 / Cap 38 / Speed 0.96
-
---< Satchel >--
-TweakItem("Base.Bag_Satchel","WeightReduction","80");
+--< Normal Satchels  >--
+TweakItem("Base.Bag_Satchel","WeightReduction","85");
 TweakItem("Base.Bag_Satchel","Capacity","16");
 TweakItem("Base.Bag_Satchel","RunSpeedModifier","0.98");
 TweakItem("Base.Bag_Satchel","CanBeEquipped","FannyPackBack");
-TweakItem("Base.Bag_Satchel","BodyLocation","Back2");
 TweakItem("Base.Bag_Satchel","ClothingItemExtra","Bag_Satchel");
-TweakItem("Base.Bag_Satchel","ClothingItemExtraOption","FannyPack_WearBack");
+TweakItem("Base.Bag_Satchel","ClothingItemExtraOption","ContextMenu_Equip_on_your_Back");
+TweakItem("Base.Bag_Satchel","BodyLocation","Back2");
 
 --< Fanny Packs >--
-TweakItem("Base.Bag_FannyPackFront","WeightReduction","75");
+TweakItem("Base.Bag_FannyPackFront","WeightReduction","80");
 TweakItem("Base.Bag_FannyPackFront","Capacity","4");
 TweakItem("Base.Bag_FannyPackFront","RunSpeedModifier","0.98");
 
-TweakItem("Base.Bag_FannyPackBack","WeightReduction","75");
+TweakItem("Base.Bag_FannyPackBack","WeightReduction","80");
 TweakItem("Base.Bag_FannyPackBack","Capacity","4");
 TweakItem("Base.Bag_FannyPackBack","RunSpeedModifier","0.98");
 

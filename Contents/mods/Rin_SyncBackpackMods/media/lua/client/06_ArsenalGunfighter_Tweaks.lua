@@ -1,6 +1,10 @@
 if getActivatedMods():contains("Arsenal(26)GunFighter") then 
 
 --< Fanny Packs >--
+TweakItem("Base.CCW_FannyPack","WeightReduction","75");
+TweakItem("Base.CCW_FannyPack","Capacity","4");
+TweakItem("Base.CCW_FannyPack","RunSpeedModifier","0.98");
+
 TweakItem("Base.CCW_FannyPack_22","WeightReduction","75");
 TweakItem("Base.CCW_FannyPack_22","Capacity","4");
 TweakItem("Base.CCW_FannyPack_22","RunSpeedModifier","0.98");

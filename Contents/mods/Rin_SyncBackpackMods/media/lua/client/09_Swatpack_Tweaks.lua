@@ -1,9 +1,16 @@
 if getActivatedMods():contains("Swatpack") then 
 
---< Leg Pouch - Better Fanny Packs> --
-TweakItem("Base.SWATPouch","WeightReduction","80");
-TweakItem("Base.SWATPouch","Capacity","6");
+--< Equip Slot Fixes >--
+TweakItem("Base.SwatShoulderPads","BodyLocation","UpperArms");
+TweakItem("Base.SwatElbowPads","BodyLocation","Hands");
+TweakItem("Base.SwatKneePads","BodyLocation","Shins");
+
+--< Leg Pouches > --
+TweakItem("Base.SWATPouch","WeightReduction","85");
+TweakItem("Base.SWATPouch","Capacity","7");
 TweakItem("Base.SWATPouch","RunSpeedModifier","0.98");
+TweakItem("Base.SWATPouch","BodyLocation","ThighLeft");
+TweakItem("Base.SWATPouch","CanBeEquipped","ThighLeft");
 
 --< Hiking Backpacks >--
 TweakItem("Base.Bag_PoliceBag","WeightReduction","90");
