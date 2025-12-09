@@ -1,4 +1,4 @@
-if getActivatedMods():contains("Authentic Z - Current") then 
+if getActivatedMods():contains("Authentic Z - Current") then
 
 --< Normal Satchels  >--
 TweakItem("AuthenticZClothing.Bag_Satchel","WeightReduction","85");
@@ -46,6 +46,7 @@ TweakItem("AuthenticZClothing.Bag_UtilityBeltDesert_Loose","ClothingItemExtraOpt
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","WeightReduction","90");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","Capacity","10");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","RunSpeedModifier","0.99");
+TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","CanBeEquipped","FannyPackFront");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","clothingExtraSubmenu","FannyPack_WearFront")
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","ClothingItemExtra","Bag_MilitaryWebbingTightened_AZ");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","ClothingItemExtraOption","FannyPack_WearBack");
@@ -53,6 +54,7 @@ TweakItem("AuthenticZClothing.Bag_MilitaryWebbing_AZ","ClothingItemExtraOption",
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","WeightReduction","90");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","Capacity","10");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","RunSpeedModifier","0.99");
+TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","CanBeEquipped","FannyPackBack");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","clothingExtraSubmenu","FannyPack_WearBack")
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","ClothingItemExtra","Bag_MilitaryWebbing_AZ");
 TweakItem("AuthenticZClothing.Bag_MilitaryWebbingTightened_AZ","ClothingItemExtraOption","FannyPack_WearFront");

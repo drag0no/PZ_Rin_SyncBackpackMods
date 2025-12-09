@@ -73,7 +73,7 @@ TweakItem("Base.Messkit_Loose","Capacity","16");
 TweakItem("Base.Messkit_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.Messkit_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.Messkit_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.Messkit_Loose","ClothingItemExtra","Messkit")
+TweakItem("Base.Messkit_Loose","ClothingItemExtra","Messkit_Loose")
 TweakItem("Base.Messkit_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Messkit_Loose","BodyLocation","Back2");
 
@@ -93,7 +93,7 @@ TweakItem("Base.Messkit_B_Loose","Capacity","16");
 TweakItem("Base.Messkit_B_Loose","RunSpeedModifier","0.98");
 TweakItem("Base.Messkit_B_Loose","CanBeEquipped","FannyPackBack");
 TweakItem("Base.Messkit_B_Loose","clothingExtraSubmenu", "FannyPack_WearBack")
-TweakItem("Base.Messkit_B_Loose","ClothingItemExtra","Messkit_B")
+TweakItem("Base.Messkit_B_Loose","ClothingItemExtra","Messkit_B_Loose")
 TweakItem("Base.Messkit_B_Loose","ClothingItemExtraOption","FannyPack_WearBack");
 TweakItem("Base.Messkit_B_Loose","BodyLocation","Back2");
 
